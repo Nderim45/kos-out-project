@@ -1,13 +1,83 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.div-1 {
+  flex-direction: row;
+  margin: 50px;
+  margin-left: 100px;
+}
+.div-3 {
+  flex-direction: column;
+  width: 300px;
+}
+
+.img {
+  width: max-content;
+  height: max-content;
+  margin: auto;
+}
+.card {
+  flex-direction: column;
+  width: 500px;
+  display: flex;
+  outline: blue;
+  padding: 20px;
+  margin: 30px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: rgb(224, 224, 224);
+  border-width: 1px;
+  box-shadow: blue;
+}
+.status-div{
+  flex-wrap: wrap;
+  border-radius: 10px;
+  flex-direction: row;
+  width: fit-content;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: fit-content;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.image{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  flex-direction: row;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.card-div{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn{
+  background-color: white;
+  border-color: blue;
+  color: blue;
+  border-radius: 25px;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 100px;
 }
